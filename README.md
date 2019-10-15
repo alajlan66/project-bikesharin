@@ -11,7 +11,7 @@ Rua Dr. Roberto Frias, 378
 
 
 
-Background 
+# Background 
 
 
 Bike sharing systems are new generation of traditional bike rentals where whole process from membership, rental and return 
@@ -27,7 +27,7 @@ a virtual sensor network that can be used for sensing mobility in the city. Henc
 events in the city could be detected via monitoring these data.
 
 
-Data Set
+# Data Set
 
 Bike-sharing rental process is highly correlated to the environmental and seasonal settings. For instance, weather conditions,
 precipitation, day of week, season, hour of the day, etc. can affect the rental behaviors. The core data set is related to  
@@ -36,7 +36,7 @@ publicly available in http://capitalbikeshare.com/system-data. We aggregated the
 extracted and added the corresponding weather and seasonal information. Weather information are extracted from http://www.freemeteo.com. 
 
 
-Associated tasks
+# Associated tasks
 
 
 	- Regression: 
@@ -49,16 +49,16 @@ Associated tasks
 
 
 
-Files
+# Files
 
 
-	- Readme.txt
+	
 	- hour.csv : bike sharing counts aggregated on hourly basis. Records: 17379 hours
 	- day.csv - bike sharing counts aggregated on daily basis. Records: 731 days
 
 	
 
-Dataset characteristics
+# Dataset characteristics
 	
 Both hour.csv and day.csv have the following fields, except hr which is not available in day.csv
 	
@@ -85,7 +85,7 @@ Both hour.csv and day.csv have the following fields, except hr which is not avai
 	- cnt: count of total rental bikes including both casual and registered
 	
 
-License
+# License
 
 Use of this dataset in publications must be cited to the following publication:
 
@@ -105,6 +105,6 @@ Use of this dataset in publications must be cited to the following publication:
 }
 
 
-Contact
+# Contact
 	
 For further information about this dataset please contact Hadi Fanaee-T (hadi.fanaee@fe.up.pt)
